@@ -1,6 +1,4 @@
-# **🌳 Linktree Clone **  
-
-![Linktree Clone](https://your-image-url.com)  
+# 🌳 Linktree Clone 
 *A full-stack Linktree clone with user authentication, referral tracking, and interactive UI.*  
 
 ---
@@ -105,31 +103,24 @@ npm run dev
 
 ## **📝 API Endpoints**
 ### **📌 Authentication (JWT)**
-| Method | Endpoint            | Description          | Protected? |
-|--------|---------------------|----------------------|------------|
-| POST   | `/api/auth/register`  | Register new user  | ❌ No       |
-| POST   | `/api/auth/login`     | Login user & get JWT | ❌ No       |
-| POST   | `/api/auth/forgot-password` | Send password reset email | ❌ No  |
-| POST   | `/api/auth/reset-password/:token` | Reset password with token | ❌ No |
+| Method | Endpoint            | Description          |
+|--------|---------------------|----------------------|
+| POST   | `/api/auth/register`  | Register new user  |
+| POST   | `/api/auth/login`     | Login user & get JWT |
+| POST   | `/api/auth/forgot-password` | Send password reset email |
+| POST   | `/api/auth/reset-password/:token` | Reset password with token | 
 
 ### **📌 Referral System**
-| Method | Endpoint            | Description                     | Protected? |
-|--------|---------------------|---------------------------------|------------|
-| GET    | `/api/referrals/referral-stats`  | Fetch total successful referrals | ✅ Yes  |
-| GET    | `/api/referrals/referrals`       | List users referred by logged-in user | ✅ Yes |
+| Method | Endpoint            | Description                     |
+|--------|---------------------|---------------------------------|
+| GET    | `/api/referrals/referral-stats`  | Fetch total successful referrals |
+| GET    | `/api/referrals/referrals`       | List users referred by logged-in user |
 
 ---
 
 ## **🎨 UI Preview**
 📌 **Home Page**  
-![Home Page](https://your-image-url.com)  
-
-📌 **Dashboard (Referral Stats & Users)**  
-![Dashboard](https://your-image-url.com)  
-
-📌 **Signup / Login**  
-![Signup/Login](https://your-image-url.com)  
-
+![alt text](image.png)
 ---
 
 ## **💡 Features Breakdown**
@@ -165,6 +156,6 @@ Want to improve this project? Follow these steps:
 
 ---
 
-### **🚀 Developed by [Your Name](https://github.com/yourusername)**
+### **🚀 Developed by [Your Name](https://github.com/deviitrikka)**
 Give this project a ⭐ on [GitHub](https://github.com/yourusername/linktree-clone) if you like it! 🚀🔥  
 Let me know if you need any modifications! 😊
