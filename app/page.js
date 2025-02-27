@@ -1,8 +1,17 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense } from 'react';
 
 export default function Home() {
+    return (
+        <Suspense fallback={<p>Loading...</p>}>
+            <HomeContent />
+        </Suspense>
+    );
+}
+
+function HomeContent() {
     const router = useRouter();
     const [text, setText] = useState("");
     const [isLoggedIn, setIsLoggedIn] = useState(false);
