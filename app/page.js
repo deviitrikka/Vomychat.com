@@ -45,7 +45,7 @@ function HomeContent() {
     const fetchReferralStats = async () => {
         setLoadingStats(true);
         try {
-            const response = await fetch("http://localhost:5000/api/referrals/referral-stats", {
+            const response = await fetch("https://linktreeclone-backend-production-ad40.up.railway.app/api/referrals/referral-stats", {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem("token")}`,
                 },
@@ -66,7 +66,7 @@ function HomeContent() {
     const fetchReferrals = async () => {
         setLoadingUsers(true);
         try {
-            const response = await fetch("http://localhost:5000/api/referrals/referrals", {
+            const response = await fetch("https://linktreeclone-backend-production-ad40.up.railway.app/api/referrals/referrals", {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem("token")}`,
                 },
